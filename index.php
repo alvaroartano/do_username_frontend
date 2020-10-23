@@ -6,4 +6,5 @@ curl_setopt_array($cURL, $setopt_array);
 $json_response_data = curl_exec($cURL);
 echo $json_response_data);
 curl_close($cURL);  
+echo '<h1>Hello</h1>'
 ?>
